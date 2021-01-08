@@ -1,5 +1,10 @@
 .fondoItem{
     background-color: #FF111328;
-    height: 130PX;
+    height: 120PX;
     border-radius: 20PX;
+    color: white;
+}
+
+.sexo{
+    font-size: 270%;
 }

@@ -6,9 +6,29 @@ body{
     font-family: 'Raleway', sans-serif;
     color: white;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .row{
     margin-top: 20px;
+}
+
+.btn-color{
+    background-color: #FF3366;
+    border-color: #FF3366;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.btn-color:hover{
+    background-color: #ff3366ea;
+    border-color: #ff3366ea;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
 }
