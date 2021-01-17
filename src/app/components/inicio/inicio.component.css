@@ -9,6 +9,13 @@
     font-size: 270%;
 }
 
+
+.sexoDesactivado{
+    transition: 250ms;
+    background-color: #ac1a3f93;
+    /* background-color: #ff4c4f5e; */
+}
+
 .estiloNumero{
     font-size: 32px;
     /* Negrita */
