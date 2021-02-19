@@ -12,6 +12,8 @@ export class InicioComponent implements OnInit {
   altura = 170;
   sexo = 'Femenino';
 
+  // Esto es un comentario 
+
 
   constructor() { }
 
