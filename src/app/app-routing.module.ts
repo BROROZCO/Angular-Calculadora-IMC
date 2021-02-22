@@ -6,7 +6,9 @@ import { ResultadoComponent } from './components/resultado/resultado.component';
 const routes: Routes = [
   // Los que estan en llaves son los componentes, el InicioCOmponent es la clase
   { path: '', component: InicioComponent},
-  { path: 'resultado', component: ResultadoComponent }
+  { path: 'resultado', component: ResultadoComponent },
+  // condicionado el path para redirecciones inexistentes la linea 11 siempre tiene que ir al final
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
